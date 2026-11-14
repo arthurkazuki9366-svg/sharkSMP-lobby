@@ -1,0 +1,8 @@
+LOBBY
+
+/lobby     -> teleporta para o mundo "lobby" (nome configuravel em config.yml)
+/setlobby  -> (admin) define o ponto exato de chegada na sua posicao atual
+Sem /setlobby, o jogador vai para o spawn do mundo configurado.
+
+Permissoes: lobby.use (todos), lobby.admin (OP)
+Compilar: mvn package -> target/Lobby-1.0.jar

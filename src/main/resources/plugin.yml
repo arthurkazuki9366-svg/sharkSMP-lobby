@@ -1,0 +1,20 @@
+name: Lobby
+version: 1.0
+main: com.exemplo.lobby.LobbyPlugin
+api-version: "1.16"
+commands:
+  lobby:
+    description: Vai para o lobby
+    usage: /lobby
+    permission: lobby.use
+  setlobby:
+    description: Define o ponto exato de chegada do lobby
+    usage: /setlobby
+    permission: lobby.admin
+permissions:
+  lobby.use:
+    description: Permite usar /lobby
+    default: true
+  lobby.admin:
+    description: Permite usar /setlobby
+    default: op

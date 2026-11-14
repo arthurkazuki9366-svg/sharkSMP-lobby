@@ -1,0 +1,11 @@
+# Nome do mundo do lobby (precisa ser igual ao nome da pasta do mundo)
+mundo: "lobby"
+
+tocar-som: true
+
+mensagens:
+  sucesso: "&aVoce foi para o lobby!"
+  mundo-nao-encontrado: "&cO mundo &f{mundo} &cnao foi encontrado. Avise um administrador."
+  sem-permissao: "&cVoce nao tem permissao."
+  so-jogador: "Apenas jogadores podem usar este comando."
+  lobby-definido: "&aLobby definido na sua posicao atual (mundo &f{mundo}&a)."
